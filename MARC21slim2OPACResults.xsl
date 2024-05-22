@@ -429,7 +429,7 @@
         <xsl:if test="marc:datafield[@tag=245]">
             <xsl:for-each select="marc:datafield[@tag=245]">                                 
                 <xsl:call-template name="subfieldSelect">
-                    <xsl:with-param name="codes">a</xsl:with-param>
+                    <xsl:with-param name="codes">h</xsl:with-param>
                 </xsl:call-template>                
                
                 <!-- 13381 add additional subfields-->
